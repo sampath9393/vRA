@@ -28,11 +28,6 @@ variable "instance_keypair" {
   default = "RACkey"
 }
 
-variable "associate_public_ip_address" {
-  description = "enable or disable public_ip"
-  type = bool
-  default = "true"
-}
 
 variable "instance_type_map" {
   description = "EC2 Instance Type"
